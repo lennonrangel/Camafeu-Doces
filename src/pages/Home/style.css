@@ -1,0 +1,73 @@
+/* Estilos Globais */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none; /* Remove os sublinhados de links */
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%; /* Esta técnica é útil para manter uma boa consistência no tamanho da fonte em toda a página e para facilitar ajustes rápidos e proporcionais em tamanhos de fonte para diferentes partes do conteúdo. */
+    overflow-x: hidden; /* Remove a barra de rolagem vertical */
+}
+
+
+/* Cores 
+
+#D69D2F
+
+#FEF5EB
+#E5CAC1
+#D8B4B4
+#A2A590
+
+#FFF9EA
+#7D3A1C
+#C2976B
+#C8A75B
+#DF7F5F
+
+*/
+
+
+/* Menu de Navegação */
+.menu {
+    background-color: #fff9ea;
+    padding: 15px 80px;
+}
+
+nav {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.logo {
+    height: 60px; 
+    width: auto;
+    cursor: pointer; 
+}
+
+.list-menu {
+    width: 550px;
+    justify-content: space-between;
+    list-style: none;
+    display: flex; 
+}
+
+.menu .list-menu li a {
+    padding: 3rem 1rem 2rem 1rem; 
+    color: #1b1401;
+    font-weight: 500; 
+    font-size: 1.8rem;
+    transition: color 0.3s ease;
+}
+
+.menu .list-menu li a:hover {
+    color: #D69D2F;
+}
